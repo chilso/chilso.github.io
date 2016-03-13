@@ -1,0 +1,100 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+    background-color: #F8F8FF; /* background colour of whole page */
+	overflow-y:scroll; /* scroll bar always present to avoid resizing of webpage when scroll bar is suddenly needed */
+} 
+
+h1 {
+    font-family: 'Stalemate';
+	font-weight: 400;
+	color: black;
+	font-size: 72px; font-size: 6vw;
+	text-align: right;
+	margin-right: 50px; margin-right: 7%;
+	margin-bottom: -2vw;
+} /* header 1: "Chicago Late Starters Orchestra" */
+
+h2 {
+    font-family: 'Josefin Sans';
+	color: black;
+	font-size: 21px; font-size: 1.8vw;
+	text-align: left;
+} /* header 2 */
+
+p {
+	font-family: 'Josefin Sans';
+	text-align: justify;
+	font-size: 18px; font-size: 1.5vw;
+} /* paragraphs */
+
+/* navigation bar*/
+ul#navbar {
+	font-family: 'Josefin Sans';
+    list-style-type: none;
+	margin-top: 0;
+    margin-right: 40px; margin-right: 7%;
+    padding: 0;
+	font-size: 18px;  font-size: 1.5vw;
+} 
+li#navbar {
+	float: right;
+}
+li#navbar a {
+	padding: 8px;
+	text-decoration: none;
+}
+li#navbar a:hover {
+    background-color: lightgray;
+}
+body#home a#home-nav,
+body#about a#about-nav,
+body#rehearsals a#rehearsals-nav,
+body#concerts a#concerts-nav,
+body#gallery a#gallery-nav,
+body#faq a#faq-nav,
+body#links a#links-nav,
+body#contact a#contact-nav {
+	font-weight:bold;
+}
+
+/* lists */
+ul {
+	font-family: 'Josefin Sans';
+    list-style-type: none;
+	margin-top: 0;
+    padding: 0;
+	font-size: 18px; font-size: 1.5vw;
+} 
+li {
+	text-align: left;
+}
+
+/* links */
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+
+/* specific divs (i.e. subsections)*/
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+} /* sort of centers the page */
+
+.intro {
+	margin-top: 80px; margin-top: 5.5vw;
+	text-align: right;
+}
+
+.emailform {
+	font-family: 'Josefin Sans';
+	text-align: left;
+	font-size: 1.2vw;
+}
