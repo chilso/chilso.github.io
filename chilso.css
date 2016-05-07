@@ -101,10 +101,8 @@ a:visited {
 
 div.fill-screen {
     position: relative;
-    margin=0;
-    left: 50%;
+    left: 35%;
     top: 50%;
-    margin-right: -50%;
     text-align: center;
 }
 
