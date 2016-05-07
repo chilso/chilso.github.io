@@ -98,3 +98,17 @@ a:visited {
 	text-align: left;
 	font-size: 1.2vw;
 }
+
+div.fill-screen {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+img.make-it-fit {
+    max-width: 65%;
+    max-height: 65%;
+}
