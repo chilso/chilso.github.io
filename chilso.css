@@ -5,41 +5,41 @@ html {
 	}
 
 body {
-    background-color: #F8F8FF; /* background colour of whole page */
+	background-color: #F8F8FF; /* background colour of whole page */
 	overflow-y:scroll; /* scroll bar always present to avoid resizing of webpage when scroll bar is suddenly needed */
 } 
 
 h1 {
-    font-family: 'Stalemate';
+	font-family: 'Stalemate';
 	font-weight: 400;
 	color: black;
-	font-size: 72px; font-size: 6vw;
+	font-size: large;
 	text-align: right;
-	margin-right: 50px; margin-right: 7%;
+	margin-right: 7%;
 	margin-bottom: -2vw;
 } /* header 1: "Chicago Late Starters Orchestra" */
 
 h2 {
-    font-family: 'Josefin Sans';
+	font-family: 'Josefin Sans';
 	color: black;
-	font-size: 21px; font-size: 1.8vw;
+	font-size: medium;
 	text-align: left;
 } /* header 2 */
 
 p {
 	font-family: 'Josefin Sans';
 	text-align: justify;
-	font-size: 18px; font-size: 1.5vw;
+	font-size: medium;
 } /* paragraphs */
 
 /* navigation bar*/
 ul#navbar {
 	font-family: 'Josefin Sans';
-    list-style-type: none;
+	list-style-type: none;
 	margin-top: 0;
-    margin-right: 40px; margin-right: 7%;
-    padding: 0;
-	font-size: 18px;  font-size: 1.5vw;
+	margin-right: 7%;
+	padding: 0;
+	font-size: medium;
 } 
 li#navbar {
 	float: right;
@@ -65,10 +65,10 @@ body#contact a#contact-nav {
 /* lists */
 ul {
 	font-family: 'Josefin Sans';
-    list-style-type: none;
+	list-style-type: none;
 	margin-top: 0;
-    padding: 0;
-	font-size: 18px; font-size: 1.5vw;
+	padding: 0;
+	font-size: medium;
 } 
 li {
 	text-align: left;
@@ -89,14 +89,14 @@ a:visited {
 } /* sort of centers the page */
 
 .intro {
-	margin-top: 80px; margin-top: 5.5vw;
+	margin-top: 5.5vw;
 	text-align: right;
 }
 
 .emailform {
 	font-family: 'Josefin Sans';
 	text-align: left;
-	font-size: 1.2vw;
+	font-size: medium;
 }
 
 div.fill-screen {
